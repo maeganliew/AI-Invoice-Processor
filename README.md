@@ -55,7 +55,29 @@ A smart, web-based system designed to automate invoice processing for businesses
 
 ```bash
 git clone https://github.com/your-username/invoice-processing-system.git
+```
 
 ### 2. Navigate to Project Directory
 ```bash
 cd invoice-processing-system
+```
+
+### 3. Install Dependencies
+```bash
+npm install
+```
+
+### 4. Start Development Server
+```bash
+run dev
+```
+
+## 🚀 Usage Guide
+1. Open the application in your browser.
+2. Upload an invoice image via drag-and-drop or file input.
+3. The system will:
+    - Extract text using OCR.
+    - Parse structured data from the extracted text.
+4. Review the extracted fields and confidence score.
+5. Correct or fill in any flagged fields (e.g., missing data).
+6. Submit the finalized invoice data or export it for further processing.
