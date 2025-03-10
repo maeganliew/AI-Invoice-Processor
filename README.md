@@ -23,21 +23,16 @@ Check out the live demo of the project: [Invoice Processor](https://ai-invoice-p
     - Invoice Number
     - Invoice Date & Due Date
     - Total Amount
-- Achieved **~75% accuracy** in parsing and field matching.
+
 
 ✅ **Real-time Feedback**  
 - Provides immediate display of extracted fields.
-- Confidence score shown for transparency.
 - Alerts users about any missing or suspicious data.
 
 🎨 **Responsive & Intuitive UI**  
 - Built with **React** and **TypeScript**.
 - Clean, user-friendly drag-and-drop upload interface.
 - Mobile-friendly layout for better usability.
-
-⚠️ **Error Handling**  
-- Detects and highlights missing or invalid fields.
-- Displays clear error messages to guide users.
 
 ---
 
