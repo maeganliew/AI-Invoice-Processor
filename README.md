@@ -2,7 +2,11 @@
 
 A smart, web-based system designed to automate invoice processing for businesses. Users can upload invoice images, and the system uses **OCR (Optical Character Recognition)** combined with **custom text parsing algorithms** to automatically extract key invoice details such as vendor name, invoice number, dates, and total amount. The system delivers real-time feedback, confidence scores, and handles missing or invalid data gracefully.
 
----
+## Demo
+
+Check out the live demo of the project: [Invoice Processor](https://ai-invoice-processor.vercel.app/)
+
+![Description](assets/image.png)
 
 ## 🚀 Features
 
