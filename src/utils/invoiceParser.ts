@@ -27,7 +27,7 @@ export async function parseInvoiceText(text: string): Promise<ProcessingResult> 
     };
 
     // Validate extracted data
-    const requiredFields = ['invoice_number', 'total_amount', 'vendor_name'];
+    const requiredFields = ['invoice_number', 'total_amount'];  //, 'vendor_name' removed from required fields.
     const missingFields = requiredFields.filter(field => !result[field]);
 
     if (missingFields.length > 0) {
