@@ -60,7 +60,7 @@ function App() {
     <div className="min-h-screen bg-gray-50">
       <div className="max-w-4xl mx-auto p-6">
         <header className="text-center mb-12">
-          <h1 className="text-4xl font-bold text-gray-900 mb-2">AI Invoice Processor</h1>
+          <h1 className="text-4xl font-bold text-gray-900 mb-2"> Invoice Processor</h1>
           <p className="text-gray-600">Upload an invoice to automatically extract and process its data</p>
         </header>
 
